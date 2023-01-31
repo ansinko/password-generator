@@ -7,8 +7,9 @@ const characters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O"
 
 let password1 = document.getElementById("first-passwd")
 let password2 = document.getElementById("second-passwd")
-
+document.getElementById("password-block").style.display = 'none';
 function generatePasswd(){
+    document.getElementById("password-block").style.display = 'block';
     password1.textContent = ""
     password2.textContent = ""
     for (let i = 0; i < 15; i++){

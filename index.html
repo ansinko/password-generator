@@ -9,11 +9,13 @@
         </h1>
         <p>Never use an insecure password again.</p>
         <button type="button" onClick="generatePasswd()">Generate passwords</button>
-        <span class="dividing-line"></span>
-        <ul>
-            <li onClick="copyText1()" id="first-passwd"></li>
-            <li onClick="copyText2()" id="second-passwd"></li>
-        </ul>
+        <div id="password-block">
+            <span class="dividing-line"></span>
+            <ul>
+                <li onClick="copyText1()" id="first-passwd"></li>
+                <li onClick="copyText2()" id="second-passwd"></li>
+            </ul>
+        </div>
         <script src="index.js"></script>
     </body>
 </html>
